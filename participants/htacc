@@ -1,0 +1,14 @@
+AuthType Basic 
+AuthName "Restricted Content" 
+AuthUserFile /.htpasswd
+require valid-user
+
+<Files "uploader.php">
+Allow from all
+Satisfy Any
+</Files>
+
+<Files "teams.txt">
+Allow from all
+Satisfy Any
+</Files>

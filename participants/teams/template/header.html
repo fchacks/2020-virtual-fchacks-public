@@ -1,0 +1,22 @@
+<div class="topnav" id="myTopnav" style="width:100%">
+    <a href="../../../index.php">Home</a>
+    <a href="../../index.php">Participants</a>
+    <a href="../../welcome.php">My Account</a>
+    <a href="../../../challenge.html">The Challenge</a>
+    <a href="index.php">Team Dashboard</a>
+    <a href="members.php">Manage Team Members</a>
+    <a href="submit.php">Submit Team Data</a>
+
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
